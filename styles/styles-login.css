@@ -52,14 +52,29 @@ body.login-page {
 
 .actions {
     display: flex;
-    gap: 0.6rem;
+    gap: 1rem;
     justify-content: center;
-    margin-top: 0.25rem;
+    margin-top: 0.5rem;
 }
 
-.btn { padding: 0.7rem 1rem; border-radius: 8px; border: none; cursor: pointer; }
+.btn { padding: 0.7rem 1.4rem; border-radius: 8px; border: none; cursor: pointer; font-size: 1rem; }
 .btn.primary { background: #1d4e98; color: #fff; }
 .btn.ghost { background: transparent; color: #1d4e98; border: 2px solid rgba(29,78,152,0.12); }
+
+.actions a {
+    display: flex;
+    gap: 0.6rem;
+    justify-content: center;
+    margin-top: 0.30rem;
+}
+
+.actions a { padding: 0.7rem 1rem; border-radius: 9px; border: none; cursor: pointer;  background: #1d4e98; color: #ffffff; }
+
+.actions.ghost a {
+    background: transparent;
+    color: #ffffff; 
+    border: 3px solid rgba(29,78,152,0.12);
+}
 
 .site-note {
     position: absolute;
